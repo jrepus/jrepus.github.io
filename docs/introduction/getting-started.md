@@ -40,7 +40,7 @@ Note that the address is a relative address.
 
 
 
-For example: click screen preview in screen management:![Alt text](/public/icon.png){ width=3% height=auto }
+For example: click screen preview in screen management:![Alt text](/introduction/icon.png){ width=3% height=auto }
 
 The address shows: http://iot.qqzgbjzs.com:33033/admin/#/dashboard/62562b4a3888466c331f432b/view
 
