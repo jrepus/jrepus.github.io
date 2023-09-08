@@ -1,0 +1,15 @@
+**Concept** | **Meaning**
+|------------------|---------------------------------------------------------------------------------------------------------------------|
+| Model            | A device or data template that allows for the rapid batch addition of assets. Models support hierarchical inheritance, with parent models capable of inheriting data points from child models. |
+| Asset            | An instance of a model; for device models, assets correspond to device instances, while for abstract models, assets correspond to model instances. Customers can add assets and their associated data points in batches within asset management. |
+| Data Point       | The smallest unit of data collection, defined within models or assets, serving as the foundational data for the entire system. |
+| Command          | Instructions sent from the platform to devices, typically conveyed through data interfaces in the form of data messages. |
+| Compute Node     | Compute nodes represent derived data points, such as sums, averages, maximums, and minimums of collected data points. They also encompass computed values between data points and nodes, which are stored in a real-time time-series database as the latest nodes. |
+| Alarm Rule       | Conditions triggering alerts when data points or compute nodes exhibit anomalies. Alarm rules support both basic thresholds and complex rule configurations, allowing custom formula definitions for data point alert triggers. |
+| Event            | Events such as system start-ups, shutdowns, command executions, or alarm triggers with associated system response strategies. Users can be notified via SMS, phone calls, email, WeChat, DingTalk, or triggered functionality through frontend scripts. |
+| Data Dictionary  | Defines global system variables, encompassing numerical values, arrays, and object definitions. The data dictionary serves as global data for the system. |
+| Screen           | A data visualization dashboard development tool that enables layout design, SVG drawing, pipeline creation, 3D model effects editing, chart editing, data analysis, style customization, event triggering, command execution, and various other functionalities. |
+| Layout Container | A fundamental layout component facilitating flexible arrangement of lower-level components. Component groups serve as layout containers, managing the layout of lower-level components consistently. |
+| Data View        | A fundamental data component capable of transmitting data to lower-level components. Real-time data components, historical data components, asset views, and worksheet views can all function as data views, allowing lower-level components to access data views for diverse data presentation effects. |
+| Worksheet        | A tool for creating, deleting, modifying, and querying tables. It can synchronize with database tables or define data tables independently. Worksheets support online data manipulation. |
+| Screen Master    | The system includes default front-end pages. By selecting a screen master, front-end screens can override default pages to achieve customized front-end display effects. |
